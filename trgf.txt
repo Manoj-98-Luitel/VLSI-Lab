@@ -1,0 +1,85 @@
+#include "xparameters.h"
+#include "xil_io.h"
+#include "xil_types.h"
+
+#define CLK_FREQ 100000000  // Clock frequency in Hz
+#define DISP_PERIOD CLK_FREQ/10  // Period for updating the display in clock cycles
+
+// Address offsets for the UARTLite IP
+#define UART_RX_OFFSET 0  // Receive register
+#define UART_TX_OFFSET 4  // Transmit register
+#define UART_STAT_OFFSET 8  // Status register
+
+// Address offsets for the switches and 7-segment displays on the Nexys A7-100T board
+#define SWITCHES_OFFSET 0x10000000  // Base address for the switches
+#define DISPLAY_AN_OFFSET 0x10000010  // Base address for the digit select signals
+#define DISPLAY_SEG_OFFSET 0x10000020  // Base address for the segment signals
+
+// Function to display a digit on the 7-segment display
+void display_digit(int digit, int value) {
+  // Set the appropriate anode select signal
+  Xil_Out32(DISPLAY_AN_OFFSET, 1 << digit);
+
+  // Set the segment signals for the digit
+  Xil_Out32(DISPLAY_SEG_OFFSET, ~(0x3F & value));
+}
+int main()
+{
+    // Variables to store the current time and state of the stopwatch
+    unsigned short time = 0;  // Time in hundredths of a second
+    int state = 0;  // 0 = stopped, 1 = running
+
+    // Variable to store the current digit being displayed
+    int digit = 0;
+
+    // Variable to store the previous value of the start/stop switch
+    int prev_start_stop = 0;
+
+    // Infinite loop to run the stopwatch
+    while (1) {
+        // Read the switches
+        int switches = Xil_In32(SWITCHES_OFFSET);
+
+        // Check the reset switch
+        if (switches & 0x1) {
+            // Reset the stopwatch
+            time = 0;
+            state = 0;
+        }
+
+        // Check the start/stop switch
+        int start_stop = (switches >> 1) & 0x1;
+        if (start_stop && !prev_start_stop) {
+            // Toggle the state of the stopwatch
+            state = !state;
+        }
+        prev_start_stop = start_stop;
+
+        // Check the reset_b switch
+        if (switches & 0x4) {
+            // Reset the stopwatch
+            time = 0;
+        }
+
+        // Update the time if the stopwatch is running
+        unsigned int cycles = Xil_In32(CLK_FREQ);
+        if (state && (cycles % DISP_PERIOD) == 0) {
+            time++;
+        }
+
+        // Convert the time to base-10 digits
+        int minutes = time / 6000;
+        int seconds = (time / 100) % 60;
+        int hundredths = time % 100;
+
+        // Display the digits on the 7-segment displays
+        display_digit(0, minutes / 10);
+        display_digit(1, minutes % 10);
+        display_digit(2, seconds / 10);
+        display_digit(3, seconds % 10);
+        display_digit(4, hundredths / 10);
+        display_digit(5, hundredths % 10);
+    }
+
+    return 0;
+}
