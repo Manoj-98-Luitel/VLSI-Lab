@@ -1,0 +1,1203 @@
+01:05:49 DEBUG : Logs will be stored at 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/IDE.log'.
+01:05:54 INFO  : Registering command handlers for Vitis TCF services
+01:05:54 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\temp_xsdb_launch_script.tcl
+01:05:55 INFO  : Platform repository initialization has completed.
+01:05:58 INFO  : XSCT server has started successfully.
+01:05:58 INFO  : Successfully done setting XSCT server connection channel  
+01:06:01 INFO  : plnx-install-location is set to ''
+01:06:01 INFO  : Successfully done setting workspace for the tool. 
+01:06:01 INFO  : Successfully done query RDI_DATADIR 
+01:06:44 INFO  : Result from executing command 'getProjects': projectuart
+01:06:44 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+01:07:31 INFO  : Result from executing command 'getProjects': projectuart
+01:07:31 INFO  : Result from executing command 'getPlatforms': projectuart|C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/projectuart.xpfm;xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+01:08:42 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+01:25:02 DEBUG : Logs will be stored at 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/IDE.log'.
+01:25:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\temp_xsdb_launch_script.tcl
+01:25:07 INFO  : Registering command handlers for Vitis TCF services
+01:25:07 INFO  : XSCT server has started successfully.
+01:25:07 INFO  : plnx-install-location is set to ''
+01:25:07 INFO  : Successfully done setting XSCT server connection channel  
+01:25:07 INFO  : Successfully done query RDI_DATADIR 
+01:25:08 INFO  : Successfully done setting workspace for the tool. 
+01:25:08 INFO  : Platform repository initialization has completed.
+13:29:23 INFO  : Bit file 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit' is generated.
+13:29:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:29:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+13:29:26 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+13:33:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:33:11 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+13:33:11 INFO  : 'jtag frequency' command is executed.
+13:33:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+13:33:14 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+13:33:14 INFO  : Context for processor 'microblaze_0' is selected.
+13:33:14 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+13:33:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:33:14 INFO  : Context for processor 'microblaze_0' is selected.
+13:33:14 INFO  : System reset is completed.
+13:33:17 INFO  : 'after 3000' command is executed.
+13:33:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:33:17 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+13:33:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+13:33:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:33:17 INFO  : 'con' command is executed.
+13:33:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:33:17 INFO  : Disconnected from the channel tcfchan#1.
+13:35:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:35:32 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+13:35:32 INFO  : 'jtag frequency' command is executed.
+13:35:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+13:35:34 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+13:35:34 INFO  : Context for processor 'microblaze_0' is selected.
+13:35:34 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+13:35:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:35:34 INFO  : Context for processor 'microblaze_0' is selected.
+13:35:34 INFO  : System reset is completed.
+13:35:37 INFO  : 'after 3000' command is executed.
+13:35:38 INFO  : Context for processor 'microblaze_0' is selected.
+13:35:38 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+13:35:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+13:35:38 INFO  : Context for processor 'microblaze_0' is selected.
+13:35:38 INFO  : 'con' command is executed.
+13:35:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:35:38 INFO  : Disconnected from the channel tcfchan#2.
+13:36:16 INFO  : Bit file 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit' is generated.
+13:36:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:36:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+13:36:19 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+13:36:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:36:34 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+13:36:34 INFO  : 'jtag frequency' command is executed.
+13:36:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+13:36:36 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+13:36:37 INFO  : Context for processor 'microblaze_0' is selected.
+13:36:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+13:36:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:36:37 INFO  : Context for processor 'microblaze_0' is selected.
+13:36:37 INFO  : System reset is completed.
+13:36:40 INFO  : 'after 3000' command is executed.
+13:36:40 INFO  : Context for processor 'microblaze_0' is selected.
+13:36:40 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+13:36:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+13:36:40 INFO  : Context for processor 'microblaze_0' is selected.
+13:36:40 INFO  : 'con' command is executed.
+13:36:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:36:40 INFO  : Disconnected from the channel tcfchan#3.
+13:40:23 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+13:41:12 INFO  : Bit file 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit' is generated.
+13:41:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:41:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+13:41:14 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+13:46:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:46:28 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+13:46:28 INFO  : 'jtag frequency' command is executed.
+13:46:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+13:46:31 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+13:46:31 INFO  : Context for processor 'microblaze_0' is selected.
+13:46:31 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+13:46:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:46:31 INFO  : Context for processor 'microblaze_0' is selected.
+13:46:31 INFO  : System reset is completed.
+13:46:34 INFO  : 'after 3000' command is executed.
+13:46:34 INFO  : Context for processor 'microblaze_0' is selected.
+13:46:34 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+13:46:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+13:46:34 INFO  : Context for processor 'microblaze_0' is selected.
+13:46:34 INFO  : 'con' command is executed.
+13:46:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:46:34 INFO  : Launch script is exported to file 'C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\Uartproject_system\_ide\scripts\debugger_uartproject-default.tcl'
+13:48:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:48:02 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+13:48:02 INFO  : 'jtag frequency' command is executed.
+13:48:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+13:48:04 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+13:48:04 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:04 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+13:48:04 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:48:04 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:04 INFO  : System reset is completed.
+13:48:07 INFO  : 'after 3000' command is executed.
+13:48:07 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:07 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+13:48:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+13:48:07 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:07 INFO  : 'con' command is executed.
+13:48:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:48:07 INFO  : Disconnected from the channel tcfchan#4.
+13:52:06 DEBUG : Logs will be stored at 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/IDE.log'.
+13:52:07 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\temp_xsdb_launch_script.tcl
+13:52:11 INFO  : Registering command handlers for Vitis TCF services
+13:52:12 INFO  : XSCT server has started successfully.
+13:52:13 INFO  : Platform repository initialization has completed.
+13:52:17 INFO  : Successfully done setting XSCT server connection channel  
+13:52:17 INFO  : plnx-install-location is set to ''
+13:52:17 INFO  : Successfully done query RDI_DATADIR 
+13:52:17 INFO  : Successfully done setting workspace for the tool. 
+13:56:11 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+13:56:49 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+14:00:08 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+14:01:58 INFO  : Checking for BSP changes to sync application flags for project 'helloworldcheck'...
+14:09:13 INFO  : Checking for BSP changes to sync application flags for project 'helloworldcheck'...
+14:10:08 INFO  : Bit file 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit' is generated.
+14:10:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:10:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+14:10:11 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+14:10:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:10:20 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+14:10:20 INFO  : 'jtag frequency' command is executed.
+14:10:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+14:10:22 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/_ide/bitstream/design_uart_wrapper.bit"
+14:10:22 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:22 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+14:10:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:10:22 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:22 INFO  : System reset is completed.
+14:10:25 INFO  : 'after 3000' command is executed.
+14:10:25 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:25 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/Debug/helloworldcheck.elf' is downloaded to processor 'microblaze_0'.
+14:10:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/_ide/bitstream/design_uart_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/Debug/helloworldcheck.elf
+----------------End of Script----------------
+
+14:10:25 INFO  : Context for processor 'microblaze_0' is selected.
+14:10:26 INFO  : 'con' command is executed.
+14:10:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:10:26 INFO  : Launch script is exported to file 'C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\helloworldcheck_system\_ide\scripts\debugger_helloworldcheck-default.tcl'
+14:12:03 INFO  : Disconnected from the channel tcfchan#1.
+14:12:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:12:05 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+14:12:05 INFO  : 'jtag frequency' command is executed.
+14:12:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+14:12:07 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/_ide/bitstream/design_uart_wrapper.bit"
+14:12:07 INFO  : Context for processor 'microblaze_0' is selected.
+14:12:07 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+14:12:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:12:07 INFO  : Context for processor 'microblaze_0' is selected.
+14:12:07 INFO  : System reset is completed.
+14:12:10 INFO  : 'after 3000' command is executed.
+14:12:10 INFO  : Context for processor 'microblaze_0' is selected.
+14:12:10 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/Debug/helloworldcheck.elf' is downloaded to processor 'microblaze_0'.
+14:12:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/_ide/bitstream/design_uart_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/Debug/helloworldcheck.elf
+----------------End of Script----------------
+
+14:12:10 INFO  : Context for processor 'microblaze_0' is selected.
+14:12:10 INFO  : 'con' command is executed.
+14:12:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:12:10 INFO  : Launch script is exported to file 'C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\helloworldcheck_system\_ide\scripts\debugger_helloworldcheck-default.tcl'
+14:15:03 INFO  : Disconnected from the channel tcfchan#2.
+14:15:32 DEBUG : Logs will be stored at 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/IDE.log'.
+14:15:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\temp_xsdb_launch_script.tcl
+14:15:39 INFO  : XSCT server has started successfully.
+14:15:39 INFO  : Successfully done setting XSCT server connection channel  
+14:15:39 INFO  : plnx-install-location is set to ''
+14:15:39 INFO  : Successfully done setting workspace for the tool. 
+14:15:54 INFO  : Registering command handlers for Vitis TCF services
+14:15:55 INFO  : Successfully done query RDI_DATADIR 
+14:15:56 INFO  : Platform repository initialization has completed.
+14:16:47 INFO  : Result from executing command 'getProjects': projectuart
+14:16:47 INFO  : Result from executing command 'getPlatforms': projectuart|C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/projectuart.xpfm;xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+14:16:48 INFO  : Checking for BSP changes to sync application flags for project 'hee'...
+14:17:14 INFO  : Checking for BSP changes to sync application flags for project 'hee'...
+14:18:02 INFO  : Bit file 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit' is generated.
+14:18:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:18:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+14:18:05 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+14:19:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:19:35 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+14:19:35 INFO  : 'jtag frequency' command is executed.
+14:19:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+14:19:38 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/_ide/bitstream/design_uart_wrapper.bit"
+14:19:38 INFO  : Context for processor 'microblaze_0' is selected.
+14:19:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+14:19:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:19:38 INFO  : Context for processor 'microblaze_0' is selected.
+14:19:38 INFO  : System reset is completed.
+14:19:41 INFO  : 'after 3000' command is executed.
+14:19:41 INFO  : Context for processor 'microblaze_0' is selected.
+14:19:41 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/Debug/hee.elf' is downloaded to processor 'microblaze_0'.
+14:19:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/_ide/bitstream/design_uart_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/Debug/hee.elf
+----------------End of Script----------------
+
+14:19:41 INFO  : Context for processor 'microblaze_0' is selected.
+14:19:41 INFO  : 'con' command is executed.
+14:19:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:19:41 INFO  : Launch script is exported to file 'C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\hee_system\_ide\scripts\debugger_hee-default.tcl'
+14:22:44 INFO  : Disconnected from the channel tcfchan#2.
+14:22:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:22:45 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+14:22:45 INFO  : 'jtag frequency' command is executed.
+14:22:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+14:22:47 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/_ide/bitstream/design_uart_wrapper.bit"
+14:22:48 INFO  : Context for processor 'microblaze_0' is selected.
+14:22:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+14:22:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:22:48 INFO  : Context for processor 'microblaze_0' is selected.
+14:22:48 INFO  : System reset is completed.
+14:22:51 INFO  : 'after 3000' command is executed.
+14:22:51 INFO  : Context for processor 'microblaze_0' is selected.
+14:22:51 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/Debug/hee.elf' is downloaded to processor 'microblaze_0'.
+14:22:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/_ide/bitstream/design_uart_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/Debug/hee.elf
+----------------End of Script----------------
+
+14:22:51 INFO  : Context for processor 'microblaze_0' is selected.
+14:22:51 INFO  : 'con' command is executed.
+14:22:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:22:51 INFO  : Launch script is exported to file 'C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\hee_system\_ide\scripts\debugger_hee-default.tcl'
+14:43:55 DEBUG : Logs will be stored at 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/IDE.log'.
+14:43:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\temp_xsdb_launch_script.tcl
+14:44:03 INFO  : XSCT server has started successfully.
+14:44:04 INFO  : plnx-install-location is set to ''
+14:44:04 INFO  : Successfully done setting XSCT server connection channel  
+14:44:04 INFO  : Successfully done setting workspace for the tool. 
+14:44:04 INFO  : Registering command handlers for Vitis TCF services
+14:44:06 INFO  : Platform repository initialization has completed.
+14:44:10 INFO  : Successfully done query RDI_DATADIR 
+14:51:39 INFO  : Result from executing command 'getProjects': projectuart
+14:51:39 INFO  : Result from executing command 'getPlatforms': projectuart|C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/projectuart.xpfm;xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+14:51:40 INFO  : Checking for BSP changes to sync application flags for project 'micro'...
+14:51:57 INFO  : Checking for BSP changes to sync application flags for project 'micro'...
+14:53:37 INFO  : Bit file 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit' is generated.
+14:53:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:54:34 INFO  : Bit file 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit' is generated.
+14:54:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:54:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+14:54:37 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+14:55:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:55:16 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+14:55:16 INFO  : 'jtag frequency' command is executed.
+14:55:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+14:55:18 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/_ide/bitstream/design_uart_wrapper.bit"
+14:55:18 INFO  : Context for processor 'microblaze_0' is selected.
+14:55:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+14:55:18 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:55:18 INFO  : Context for processor 'microblaze_0' is selected.
+14:55:18 INFO  : System reset is completed.
+14:55:21 INFO  : 'after 3000' command is executed.
+14:55:22 INFO  : Context for processor 'microblaze_0' is selected.
+14:55:22 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/Debug/hee.elf' is downloaded to processor 'microblaze_0'.
+14:55:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/_ide/bitstream/design_uart_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/Debug/hee.elf
+----------------End of Script----------------
+
+14:55:22 INFO  : Context for processor 'microblaze_0' is selected.
+14:55:22 INFO  : 'con' command is executed.
+14:55:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:55:22 INFO  : Launch script is exported to file 'C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\hee_system\_ide\scripts\debugger_hee-default.tcl'
+15:00:47 INFO  : Checking for BSP changes to sync application flags for project 'hee'...
+15:01:14 INFO  : Bit file 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit' is generated.
+15:01:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:01:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+15:01:17 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+15:01:40 INFO  : Disconnected from the channel tcfchan#2.
+15:01:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:01:41 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+15:01:41 INFO  : 'jtag frequency' command is executed.
+15:01:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+15:01:44 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/_ide/bitstream/design_uart_wrapper.bit"
+15:01:44 INFO  : Context for processor 'microblaze_0' is selected.
+15:01:44 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+15:01:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:01:44 INFO  : Context for processor 'microblaze_0' is selected.
+15:01:44 INFO  : System reset is completed.
+15:01:47 INFO  : 'after 3000' command is executed.
+15:01:47 INFO  : Context for processor 'microblaze_0' is selected.
+15:01:47 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/Debug/hee.elf' is downloaded to processor 'microblaze_0'.
+15:01:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/_ide/bitstream/design_uart_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/Debug/hee.elf
+----------------End of Script----------------
+
+15:01:47 INFO  : Context for processor 'microblaze_0' is selected.
+15:01:47 INFO  : 'con' command is executed.
+15:01:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:01:47 INFO  : Launch script is exported to file 'C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\hee_system\_ide\scripts\debugger_hee-default.tcl'
+15:14:54 INFO  : Result from executing command 'getProjects': projectuart
+15:14:54 INFO  : Result from executing command 'getPlatforms': projectuart|C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/projectuart.xpfm;xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+15:14:55 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+15:15:24 INFO  : Bit file 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit' is generated.
+15:15:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+15:15:27 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+15:15:33 INFO  : Disconnected from the channel tcfchan#3.
+15:15:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:35 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+15:15:35 INFO  : 'jtag frequency' command is executed.
+15:15:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+15:15:37 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/_ide/bitstream/design_uart_wrapper.bit"
+15:15:37 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+15:15:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:15:37 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:37 INFO  : System reset is completed.
+15:15:40 INFO  : 'after 3000' command is executed.
+15:15:40 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:40 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/Debug/hee.elf' is downloaded to processor 'microblaze_0'.
+15:15:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/_ide/bitstream/design_uart_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/hee/Debug/hee.elf
+----------------End of Script----------------
+
+15:15:40 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:40 INFO  : 'con' command is executed.
+15:15:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:15:40 INFO  : Launch script is exported to file 'C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\hee_system\_ide\scripts\debugger_hee-default.tcl'
+15:16:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:16:05 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+15:16:05 INFO  : 'jtag frequency' command is executed.
+15:16:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+15:16:08 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+15:16:08 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+15:16:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:16:08 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:08 INFO  : System reset is completed.
+15:16:11 INFO  : 'after 3000' command is executed.
+15:16:11 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:11 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+15:16:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+15:16:11 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:11 INFO  : 'con' command is executed.
+15:16:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:16:11 INFO  : Disconnected from the channel tcfchan#5.
+15:21:27 WARN  : channel "tcfchan#5" closed
+15:21:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:21:28 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+15:21:28 INFO  : 'jtag frequency' command is executed.
+15:21:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+15:21:31 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/_ide/bitstream/design_uart_wrapper.bit"
+15:21:31 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:31 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+15:21:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:21:31 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:31 INFO  : System reset is completed.
+15:21:34 INFO  : 'after 3000' command is executed.
+15:21:34 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:34 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/Debug/helloworldcheck.elf' is downloaded to processor 'microblaze_0'.
+15:21:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/_ide/bitstream/design_uart_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/helloworldcheck/Debug/helloworldcheck.elf
+----------------End of Script----------------
+
+15:21:34 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:34 INFO  : 'con' command is executed.
+15:21:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:21:34 INFO  : Launch script is exported to file 'C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\helloworldcheck_system\_ide\scripts\debugger_helloworldcheck-default.tcl'
+15:22:51 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+15:23:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:23:03 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+15:23:03 INFO  : 'jtag frequency' command is executed.
+15:23:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+15:23:06 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+15:23:06 INFO  : Context for processor 'microblaze_0' is selected.
+15:23:06 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+15:23:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:23:06 INFO  : Context for processor 'microblaze_0' is selected.
+15:23:06 INFO  : System reset is completed.
+15:23:09 INFO  : 'after 3000' command is executed.
+15:23:09 INFO  : Context for processor 'microblaze_0' is selected.
+15:23:09 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+15:23:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+15:23:09 INFO  : Context for processor 'microblaze_0' is selected.
+15:23:09 INFO  : 'con' command is executed.
+15:23:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:23:09 INFO  : Disconnected from the channel tcfchan#6.
+15:47:29 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+15:48:00 INFO  : Bit file 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit' is generated.
+15:48:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:48:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+15:48:02 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+15:49:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:49:59 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+15:49:59 INFO  : 'jtag frequency' command is executed.
+15:50:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+15:50:02 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+15:50:02 INFO  : Context for processor 'microblaze_0' is selected.
+15:50:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+15:50:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:50:02 INFO  : Context for processor 'microblaze_0' is selected.
+15:50:02 INFO  : System reset is completed.
+15:50:05 INFO  : 'after 3000' command is executed.
+15:50:05 INFO  : Context for processor 'microblaze_0' is selected.
+15:50:05 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+15:50:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+15:50:05 INFO  : Context for processor 'microblaze_0' is selected.
+15:50:05 INFO  : 'con' command is executed.
+15:50:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:50:05 INFO  : Disconnected from the channel tcfchan#7.
+15:50:58 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+15:51:17 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+15:51:45 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+15:51:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:51:51 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+15:51:51 INFO  : 'jtag frequency' command is executed.
+15:51:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+15:51:53 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+15:51:53 INFO  : Context for processor 'microblaze_0' is selected.
+15:51:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+15:51:53 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:51:53 INFO  : Context for processor 'microblaze_0' is selected.
+15:51:53 INFO  : System reset is completed.
+15:51:56 INFO  : 'after 3000' command is executed.
+15:51:56 INFO  : Context for processor 'microblaze_0' is selected.
+15:51:57 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+15:51:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+15:51:57 INFO  : Context for processor 'microblaze_0' is selected.
+15:51:57 INFO  : 'con' command is executed.
+15:51:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:51:57 INFO  : Disconnected from the channel tcfchan#8.
+16:03:45 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+16:03:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:03:56 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+16:03:56 INFO  : 'jtag frequency' command is executed.
+16:03:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+16:03:58 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+16:03:58 INFO  : Context for processor 'microblaze_0' is selected.
+16:03:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+16:03:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:03:58 INFO  : Context for processor 'microblaze_0' is selected.
+16:03:58 INFO  : System reset is completed.
+16:04:01 INFO  : 'after 3000' command is executed.
+16:04:01 INFO  : Context for processor 'microblaze_0' is selected.
+16:04:01 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+16:04:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+16:04:02 INFO  : Context for processor 'microblaze_0' is selected.
+16:04:02 INFO  : 'con' command is executed.
+16:04:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:04:02 INFO  : Disconnected from the channel tcfchan#9.
+16:04:08 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+16:04:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:04:18 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+16:04:18 INFO  : 'jtag frequency' command is executed.
+16:04:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+16:04:20 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+16:04:20 INFO  : Context for processor 'microblaze_0' is selected.
+16:04:20 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+16:04:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:04:20 INFO  : Context for processor 'microblaze_0' is selected.
+16:04:20 INFO  : System reset is completed.
+16:04:23 INFO  : 'after 3000' command is executed.
+16:04:23 INFO  : Context for processor 'microblaze_0' is selected.
+16:04:23 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+16:04:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+16:04:23 INFO  : Context for processor 'microblaze_0' is selected.
+16:04:23 INFO  : 'con' command is executed.
+16:04:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:04:23 INFO  : Disconnected from the channel tcfchan#10.
+16:04:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:04:56 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+16:04:56 INFO  : 'jtag frequency' command is executed.
+16:04:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+16:04:58 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+16:04:58 INFO  : Context for processor 'microblaze_0' is selected.
+16:04:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+16:04:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:04:58 INFO  : Context for processor 'microblaze_0' is selected.
+16:04:58 INFO  : System reset is completed.
+16:05:01 INFO  : 'after 3000' command is executed.
+16:05:01 INFO  : Context for processor 'microblaze_0' is selected.
+16:05:02 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+16:05:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+16:05:02 INFO  : Context for processor 'microblaze_0' is selected.
+16:05:02 INFO  : 'con' command is executed.
+16:05:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:05:02 INFO  : Launch script is exported to file 'C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\Uartproject_system\_ide\scripts\debugger_uartproject-default.tcl'
+16:05:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:05:25 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+16:05:25 INFO  : 'jtag frequency' command is executed.
+16:05:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+16:05:27 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+16:05:27 INFO  : Context for processor 'microblaze_0' is selected.
+16:05:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+16:05:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:05:27 INFO  : Context for processor 'microblaze_0' is selected.
+16:05:27 INFO  : System reset is completed.
+16:05:30 INFO  : 'after 3000' command is executed.
+16:05:30 INFO  : Context for processor 'microblaze_0' is selected.
+16:05:30 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+16:05:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+16:05:30 INFO  : Context for processor 'microblaze_0' is selected.
+16:05:30 INFO  : 'con' command is executed.
+16:05:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:05:30 INFO  : Disconnected from the channel tcfchan#11.
+16:06:47 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+16:06:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:06:53 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+16:06:53 INFO  : 'jtag frequency' command is executed.
+16:06:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+16:06:55 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+16:06:55 INFO  : Context for processor 'microblaze_0' is selected.
+16:06:55 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+16:06:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:06:55 INFO  : Context for processor 'microblaze_0' is selected.
+16:06:55 INFO  : System reset is completed.
+16:06:58 INFO  : 'after 3000' command is executed.
+16:06:58 INFO  : Context for processor 'microblaze_0' is selected.
+16:06:59 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+16:06:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+16:06:59 INFO  : Context for processor 'microblaze_0' is selected.
+16:06:59 INFO  : 'con' command is executed.
+16:06:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:06:59 INFO  : Disconnected from the channel tcfchan#12.
+16:07:32 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+16:07:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:07:44 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+16:07:44 INFO  : 'jtag frequency' command is executed.
+16:07:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+16:07:47 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+16:07:47 INFO  : Context for processor 'microblaze_0' is selected.
+16:07:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+16:07:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:07:47 INFO  : Context for processor 'microblaze_0' is selected.
+16:07:47 INFO  : System reset is completed.
+16:07:50 INFO  : 'after 3000' command is executed.
+16:07:50 INFO  : Context for processor 'microblaze_0' is selected.
+16:07:50 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+16:07:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+16:07:50 INFO  : Context for processor 'microblaze_0' is selected.
+16:07:50 INFO  : 'con' command is executed.
+16:07:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:07:50 INFO  : Disconnected from the channel tcfchan#13.
+16:09:29 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+16:09:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:09:34 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+16:09:34 INFO  : 'jtag frequency' command is executed.
+16:09:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+16:09:37 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+16:09:37 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+16:09:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:09:37 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:37 INFO  : System reset is completed.
+16:09:40 INFO  : 'after 3000' command is executed.
+16:09:40 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:40 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+16:09:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+16:09:40 INFO  : Context for processor 'microblaze_0' is selected.
+16:09:40 INFO  : 'con' command is executed.
+16:09:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:09:40 INFO  : Disconnected from the channel tcfchan#14.
+16:24:24 WARN  : channel "tcfchan#6" closed
+16:24:24 WARN  : channel "tcfchan#11" closed
+16:24:45 DEBUG : Logs will be stored at 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/IDE.log'.
+16:24:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\temp_xsdb_launch_script.tcl
+16:24:50 INFO  : Registering command handlers for Vitis TCF services
+16:24:51 INFO  : XSCT server has started successfully.
+16:24:51 INFO  : plnx-install-location is set to ''
+16:24:51 INFO  : Successfully done query RDI_DATADIR 
+16:24:51 INFO  : Successfully done setting XSCT server connection channel  
+16:24:51 INFO  : Successfully done setting workspace for the tool. 
+16:24:52 INFO  : Platform repository initialization has completed.
+16:25:01 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+16:25:13 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+16:25:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:25:27 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+16:25:27 INFO  : 'jtag frequency' command is executed.
+16:25:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+16:25:29 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+16:25:29 INFO  : Context for processor 'microblaze_0' is selected.
+16:25:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+16:25:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:25:29 INFO  : Context for processor 'microblaze_0' is selected.
+16:25:29 INFO  : System reset is completed.
+16:25:32 INFO  : 'after 3000' command is executed.
+16:25:32 INFO  : Context for processor 'microblaze_0' is selected.
+16:25:32 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+16:25:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+16:25:32 INFO  : Context for processor 'microblaze_0' is selected.
+16:25:32 INFO  : 'con' command is executed.
+16:25:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:25:32 INFO  : Disconnected from the channel tcfchan#1.
+16:29:35 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+16:29:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:29:51 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+16:29:51 INFO  : 'jtag frequency' command is executed.
+16:29:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+16:29:53 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+16:29:54 INFO  : Context for processor 'microblaze_0' is selected.
+16:29:54 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+16:29:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:29:54 INFO  : Context for processor 'microblaze_0' is selected.
+16:29:54 INFO  : System reset is completed.
+16:29:57 INFO  : 'after 3000' command is executed.
+16:29:57 INFO  : Context for processor 'microblaze_0' is selected.
+16:29:57 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+16:29:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+16:29:57 INFO  : Context for processor 'microblaze_0' is selected.
+16:29:57 INFO  : 'con' command is executed.
+16:29:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:29:57 INFO  : Disconnected from the channel tcfchan#2.
+16:31:32 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+16:31:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:31:38 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+16:31:38 INFO  : 'jtag frequency' command is executed.
+16:31:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+16:31:40 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+16:31:40 INFO  : Context for processor 'microblaze_0' is selected.
+16:31:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+16:31:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:31:40 INFO  : Context for processor 'microblaze_0' is selected.
+16:31:40 INFO  : System reset is completed.
+16:31:43 INFO  : 'after 3000' command is executed.
+16:31:43 INFO  : Context for processor 'microblaze_0' is selected.
+16:31:43 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+16:31:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+16:31:43 INFO  : Context for processor 'microblaze_0' is selected.
+16:31:43 INFO  : 'con' command is executed.
+16:31:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:31:43 INFO  : Disconnected from the channel tcfchan#3.
+16:32:19 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+16:32:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:32:24 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B19A' is selected.
+16:32:24 INFO  : 'jtag frequency' command is executed.
+16:32:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}' command is executed.
+16:32:26 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+16:32:26 INFO  : Context for processor 'microblaze_0' is selected.
+16:32:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+16:32:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:32:26 INFO  : Context for processor 'microblaze_0' is selected.
+16:32:26 INFO  : System reset is completed.
+16:32:29 INFO  : 'after 3000' command is executed.
+16:32:29 INFO  : Context for processor 'microblaze_0' is selected.
+16:32:29 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+16:32:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B19A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B19A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+16:32:29 INFO  : Context for processor 'microblaze_0' is selected.
+16:32:29 INFO  : 'con' command is executed.
+16:32:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:32:29 INFO  : Disconnected from the channel tcfchan#4.
+16:57:11 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+17:37:03 DEBUG : Logs will be stored at 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/IDE.log'.
+17:37:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\nniro\OneDrive\Desktop\Neaz\neaz.vitis\temp_xsdb_launch_script.tcl
+17:37:09 INFO  : XSCT server has started successfully.
+17:37:09 INFO  : Successfully done setting XSCT server connection channel  
+17:37:09 INFO  : plnx-install-location is set to ''
+17:37:09 INFO  : Successfully done setting workspace for the tool. 
+17:37:09 INFO  : Registering command handlers for Vitis TCF services
+17:37:10 INFO  : Successfully done query RDI_DATADIR 
+17:37:10 INFO  : Platform repository initialization has completed.
+17:40:33 INFO  : Checking for BSP changes to sync application flags for project 'Uartproject'...
+17:40:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:40:58 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61C74A' is selected.
+17:40:58 INFO  : 'jtag frequency' command is executed.
+17:40:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61C74A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61C74A-13631093-0"}' command is executed.
+17:41:01 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+17:41:01 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+17:41:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:41:01 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:01 INFO  : System reset is completed.
+17:41:04 INFO  : 'after 3000' command is executed.
+17:41:04 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:04 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+17:41:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61C74A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61C74A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+17:41:04 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:04 INFO  : 'con' command is executed.
+17:41:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:41:04 INFO  : Disconnected from the channel tcfchan#1.
+17:41:52 INFO  : Bit file 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit' is generated.
+17:41:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:41:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61C74A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61C74A-13631093-0"}' command is executed.
+17:41:57 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+17:42:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:42:15 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61C74A' is selected.
+17:42:15 INFO  : 'jtag frequency' command is executed.
+17:42:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61C74A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61C74A-13631093-0"}' command is executed.
+17:42:17 INFO  : Device configured successfully with "C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit"
+17:42:17 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:17 INFO  : Hardware design and registers information is loaded from 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa'.
+17:42:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:42:17 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:17 INFO  : System reset is completed.
+17:42:20 INFO  : 'after 3000' command is executed.
+17:42:20 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:20 INFO  : The application 'C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf' is downloaded to processor 'microblaze_0'.
+17:42:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61C74A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61C74A-13631093-0"}
+fpga -file C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/projectuart/export/projectuart/hw/design_uart_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/nniro/OneDrive/Desktop/Neaz/neaz.vitis/Uartproject/Debug/Uartproject.elf
+----------------End of Script----------------
+
+17:42:20 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:20 INFO  : 'con' command is executed.
+17:42:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:42:20 INFO  : Disconnected from the channel tcfchan#2.

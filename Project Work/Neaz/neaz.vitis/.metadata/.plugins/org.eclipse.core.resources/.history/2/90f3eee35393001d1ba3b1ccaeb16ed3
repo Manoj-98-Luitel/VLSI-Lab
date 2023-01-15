@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include "xil_io.h"
+
+#define SEG_DISPLAY_BASEADDR 0x43C00000 //base address for 7-segment display
+
+//function to display a character on the 7-segment display
+void displayChar(char c) {
+    int segments = 0;
+    //determine which segments to turn on for the character
+    switch(c) {
+        case '0': segments = 0x3F; break;
+        case '1': segments = 0x06; break;
+        case '2': segments = 0x5B; break;
+        case '3': segments = 0x4F; break;
+        case '4': segments = 0x66; break;
+        case '5': segments = 0x6D; break;
+        case '6': segments = 0x7D; break;
+        case '7': segments = 0x07; break;
+        case '8': segments = 0x7F; break;
+        case '9': segments = 0x6F; break;
+        case 'A': segments = 0x77; break;
+        case 'B': segments = 0x7C; break;
+        case 'C': segments = 0x39; break;
+        case 'D': segments = 0x5E; break;
+        case 'E': segments = 0x79; break;
+        case 'F': segments = 0x71; break;
+        default: segments = 0x00; break;
+    }
+    //send the segment data to the 7-segment display
+    Xil_Out32(SEG_DISPLAY_BASEADDR, segments);
+}
+
+int main() {
+    char c = '8';
+    displayChar(c);
+    return 0;
+}

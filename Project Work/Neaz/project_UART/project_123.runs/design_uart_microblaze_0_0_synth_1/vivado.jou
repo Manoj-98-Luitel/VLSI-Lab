@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Jan 13 00:53:34 2023
+# Process ID: 3604
+# Current directory: C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_microblaze_0_0_synth_1
+# Command line: vivado.exe -log design_uart_microblaze_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_uart_microblaze_0_0.tcl
+# Log file: C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_microblaze_0_0_synth_1/design_uart_microblaze_0_0.vds
+# Journal file: C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_microblaze_0_0_synth_1\vivado.jou
+# Running On: NIROJAN, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16948 MB
+#-----------------------------------------------------------
+source design_uart_microblaze_0_0.tcl -notrace

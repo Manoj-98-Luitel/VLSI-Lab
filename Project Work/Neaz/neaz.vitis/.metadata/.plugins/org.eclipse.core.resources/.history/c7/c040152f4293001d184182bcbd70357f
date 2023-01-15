@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdint.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+
+// UART Register offsets
+#define UART_SR_OFFSET 0x2C  // UART Status Register offset
+#define UART_FIFO_OFFSET 0x30  // UART FIFO Register offset
+
+// UART Register pointers
+volatile uint32_t* uart_fifo = (uint32_t*)(XPAR_PS7_UART_1_BASEADDR + UART_FIFO_OFFSET);
+
+int main()
+{
+    init_platform();
+    xil_printf("UART 16-bit LED Control\n\r");
+
+    // Wait for incoming data on UART
+    while(1) {
+        if(*uart_sr & 1) {  // Check if data is available in UART FIFO
+            uint16_t led_data = *uart_fifo;  // Read data from UART FIFO
+            *(volatile uint16_t*)0x40000000 = led_data;  // Write data to LED
+        }
+    }
+    cleanup_platform();
+    return 0;
+}

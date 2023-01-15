@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_uart_microblaze_0_0_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_xbar_1_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_axi_gpio_0_0_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_rst_clk_wiz_1_100M_1_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_rst_clk_wiz_1_100M_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_clk_wiz_1_1_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_clk_wiz_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_axi_uartlite_0_0_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_mdm_1_1_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_mdm_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_microblaze_0_axi_intc_1_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_microblaze_0_axi_intc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_dlmb_bram_if_cntlr_1_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_dlmb_bram_if_cntlr_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_lmb_bram_1_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_lmb_bram_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_ilmb_bram_if_cntlr_1_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_ilmb_bram_if_cntlr_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_dlmb_v10_1_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_dlmb_v10_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_uart_ilmb_v10_1_synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/design_uart_ilmb_v10_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/nniro/OneDrive/Desktop/Neaz/project_123/project_123.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_uart_microblaze_0_0_synth_1"/>
+		<Parent Id="design_uart_xbar_1_synth_1"/>
+		<Parent Id="design_uart_axi_gpio_0_0_synth_1"/>
+		<Parent Id="design_uart_rst_clk_wiz_1_100M_1_synth_1"/>
+		<Parent Id="design_uart_clk_wiz_1_1_synth_1"/>
+		<Parent Id="design_uart_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="design_uart_mdm_1_1_synth_1"/>
+		<Parent Id="design_uart_microblaze_0_axi_intc_1_synth_1"/>
+		<Parent Id="design_uart_dlmb_bram_if_cntlr_1_synth_1"/>
+		<Parent Id="design_uart_lmb_bram_1_synth_1"/>
+		<Parent Id="design_uart_ilmb_bram_if_cntlr_1_synth_1"/>
+		<Parent Id="design_uart_dlmb_v10_1_synth_1"/>
+		<Parent Id="design_uart_ilmb_v10_1_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

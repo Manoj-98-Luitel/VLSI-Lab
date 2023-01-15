@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <termios.h>
+
+#define UART_DEVICE "/dev/ttyUSB1"
+
+int main() {
+    int fd;
+    struct termios options;
+
+    // Open UART device
+    fd = open(UART_DEVICE, O_RDWR | O_NOCTTY | O_NDELAY);
+    if (fd == -1) {
+        perror("Error opening UART device");
+        exit(EXIT_FAILURE);
+    }
+
+    // Configure UART settings
+    tcgetattr(fd, &options);
+    options.c_cflag = B115200 | CS8 | CLOCAL | CREAD;
+    options.c_iflag = IGNPAR;
+    options.c_oflag = 0;
+    options.c_lflag = 0;
+    tcflush(fd, TCIFLUSH);
+    tcsetattr(fd, TCSANOW, &options);
+
+    // Send RGB control commands over UART
+    char red_on[] = "r1\n";
+    char red_off[] = "r0\n";
+    char green_on[] = "g1\n";
+    char green_off[] = "g0\n";
+    char blue_on[] = "b1\n";
+    char blue_off[] = "b0\n";
+    write(fd, red_on, sizeof(red_on));
+    sleep(1);
+    write(fd, red_off, sizeof(red_off));
+    sleep(1);
+    write(fd, green_on, sizeof(green_on));
+    sleep(1);
+    write(fd, green_off, sizeof(green_off));
+    sleep(1);
+    write(fd, blue_on, sizeof(blue_on));
+    sleep(1);
+    write(fd, blue_off, sizeof(blue_off));
+
+    // Close UART device
+    close(fd);
+
+    return 0;
+}
